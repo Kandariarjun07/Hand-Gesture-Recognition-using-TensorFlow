@@ -37,7 +37,7 @@ mediapipe
    ```
 
 2. Ensure the following files are present:
-   - `Model/model.h5`: Trained TensorFlow/Keras model.
+   - `Model/model.h5`: Trained TensorFlow/Keras model (run train_model.py after colleting dataset, that will automatically make this model).
    - `Model/labels.txt`: Text file containing gesture labels (one per line).
 
 3. Run the main script:
