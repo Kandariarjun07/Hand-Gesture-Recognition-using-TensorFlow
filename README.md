@@ -57,6 +57,28 @@ To train your own model:
 
 2. Organize images into folders named after gesture labels.
 
+### Directory Structure
+Ensure your dataset directory is organized as follows:
+```
+Data/
+├── hello/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+├── thanks/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+├── yes/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+└── no/
+    ├── image1.jpg
+    ├── image2.jpg
+    └── ...
+```
+
 3. Train the TensorFlow model using the provided training script (e.g., `train_model.py`).
 
 ---
@@ -111,4 +133,3 @@ This project is open-source and available under the MIT License.
 ---
 
 For any issues or contributions, feel free to open a pull request or contact me.
-
